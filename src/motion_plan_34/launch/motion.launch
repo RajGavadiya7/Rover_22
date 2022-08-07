@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+ 
+    <!-- <node pkg = "motion_plan_34"  type = "reading_laser.py"  name="listener" output ="screen" > </node> -->
+    <!-- <node pkg = "motion_plan_34"  type = "obstacle_avoidance.py"  name="talker" output ="screen" > </node> -->
+    <node pkg = "motion_plan_34"  type = "ob2.py"  name="talker" output ="screen" > </node>
+
+</launch>
